@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/player/static/css/main.963bc70a.chunk.css",
+    "main.js": "/player/static/js/main.a63dd1e4.chunk.js",
+    "main.js.map": "/player/static/js/main.a63dd1e4.chunk.js.map",
+    "runtime-main.js": "/player/static/js/runtime-main.c650d75b.js",
+    "runtime-main.js.map": "/player/static/js/runtime-main.c650d75b.js.map",
+    "static/js/2.ec6dce34.chunk.js": "/player/static/js/2.ec6dce34.chunk.js",
+    "static/js/2.ec6dce34.chunk.js.map": "/player/static/js/2.ec6dce34.chunk.js.map",
+    "static/js/3.31a97251.chunk.js": "/player/static/js/3.31a97251.chunk.js",
+    "static/js/3.31a97251.chunk.js.map": "/player/static/js/3.31a97251.chunk.js.map",
+    "index.html": "/player/index.html",
+    "static/css/main.963bc70a.chunk.css.map": "/player/static/css/main.963bc70a.chunk.css.map",
+    "static/js/2.ec6dce34.chunk.js.LICENSE.txt": "/player/static/js/2.ec6dce34.chunk.js.LICENSE.txt",
+    "static/media/cat_in_the_sun.mp4": "/player/static/media/cat_in_the_sun.ce93d4c5.mp4",
+    "static/media/gatos_.mp4": "/player/static/media/gatos_.3d01ed49.mp4",
+    "static/media/linking-park-numb-dog-version.mp4": "/player/static/media/linking-park-numb-dog-version.f2392cd9.mp4",
+    "static/media/squish-that-cat.mp4": "/player/static/media/squish-that-cat.c45152c4.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c650d75b.js",
+    "static/js/2.ec6dce34.chunk.js",
+    "static/css/main.963bc70a.chunk.css",
+    "static/js/main.a63dd1e4.chunk.js"
+  ]
+}
