@@ -1,0 +1,39 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: $base__backgourndColor_contnet;
+
+  .info {
+    margin-top: 14px;
+    padding: 14px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-wdith: 1600px) {
+  .container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    .info {
+      position: fixed;
+      bottom: 14px;
+      width: 100%;
+    }
+  }
+}

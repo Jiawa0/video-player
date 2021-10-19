@@ -1,0 +1,69 @@
+.player {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  &__video {
+    width: 75%;
+  }
+
+  &__feature {
+    width: 25%;
+    height: 100%;
+    &__title {
+      font-size: 20px;
+      border-bottom: 1px solid $color__dark-blue;
+      padding: 14px;
+      color: $color__blue;
+    }
+
+    &__content {
+      max-height: 50vh;
+      overflow-y: scroll;
+    }
+
+    &__item {
+      position: relative;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px;
+      margin-bottom: 4px;
+
+      .item__time-point {
+        cursor: pointer;
+        color: $color__blue;
+      }
+
+      button {
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        background-color: none;
+        cursor: pointer;
+        color: rgb(255, 178, 178);
+        background: none;
+        border: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .player {
+    display: flex;
+    flex-direction: column;
+
+    &__video,
+    &__feature {
+      width: 100%;
+    }
+
+    &__feature {
+      max-height: 45vh;
+    }
+  }
+}

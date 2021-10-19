@@ -1,0 +1,17 @@
+{
+  "videoList": [
+    { "name": "Squish that cat", "fileName": "squish-that-cat.mp4" },
+    {
+      "name": "Linking Park- Numb (Dog Version)",
+      "fileName": "linking-park-numb-dog-version.mp4"
+    },
+    {
+      "name": "Three cats",
+      "fileName": "gatos_1.mp4"
+    },
+    {
+      "name": "Cat in the sun",
+      "fileName": "cat_in_the_sun_1.mp4"
+    }
+  ]
+}
